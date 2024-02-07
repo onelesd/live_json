@@ -36,7 +36,7 @@ defmodule LiveJson.MixProject do
       {:phoenix_live_view, ">= 0.16.0", allow_pre: true},
       {:jsonpatch, "~> 0.13.1"},
       {:json_diff_ex, "~> 0.6.7"},
-      {:jason, "~> 1.3.0", optional: true},
+      {:jason, "~> 1.4.1", optional: true},
       {:esbuild, "~> 0.2", only: :dev},
       {:telemetry, "~> 0.4.2 or ~> 1.0"},
       {:ex_doc, "~> 0.27", only: :dev, runtime: false}
